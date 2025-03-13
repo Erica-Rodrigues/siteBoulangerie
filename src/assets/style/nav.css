@@ -1,0 +1,79 @@
+.header__navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 2rem;
+}
+
+.menu-list__sub{
+    position: absolute; 
+    top: 100%; 
+    left: 0;
+    display: none;
+    flex-direction: column; 
+    background-color: black; 
+    border-radius: 4px;
+    z-index: 1;
+    width: max-content;
+}
+
+.menu__list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+    position: relative; 
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 900;
+    padding: 0.4rem 0.8rem;
+}
+
+.menu__list .list__item{
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    transition: color 0.15s ease-in-out;
+    color: white;
+    position: relative;
+}
+
+
+
+.list__item:hover .menu-list__sub{
+    display: flex; 
+    color: #eaa637
+}
+
+
+.list-item__link{
+    text-decoration: none;
+    color: white;
+    padding: 0.8rem;
+    display: block; /* Afin que le lien occupe tout l'espace de l'élément */
+}
+
+.menu-list__sub .list__item{
+    padding: 0.8rem;
+    font-size: 1.2rem; /* Taille de police légèrement plus petite pour le sous-menu */
+}
+
+
+
+.navigation__contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+.fa-phone-flip, .number__first-child{
+    color: #eaa637;
+    font-size: 1.5rem;
+}
+.navigation__title{
+    color: #eaa637;
+    font-size: 2rem;
+}

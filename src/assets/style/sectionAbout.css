@@ -1,0 +1,96 @@
+/* SECTION FACTS  */
+.section__about{
+    margin: 10rem;
+}
+.about-section__facts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 10rem;
+}
+
+.facts__badges{
+    width: 150px;
+    background-color: #fef6ec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    gap: 1rem;
+}
+
+.fa-certificate, .fa-people-group, .fa-bread-slice, .fa-cart-plus{
+    color: #eaa637;
+    font-size: 3rem;
+}
+
+.badges__description{
+    font-size: 1rem;
+}
+
+.badges__amount{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* SECTION CORE */
+
+.about-section__core{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.core__imgs{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgs__about{
+    width: auto;
+    height: 300px;
+}
+
+/* .core__description{
+    gap: 3rem;
+} */
+
+.subtitle, .fa-solid{
+    text-transform: uppercase;
+    color: #eaa637;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 2rem 0;
+}
+
+.fa-check{
+    font-size: 1.5rem;
+}
+
+.description__list{
+    margin-top: 2rem;
+    list-style: none;
+    columns: 100px 2;
+    gap: 2rem;
+}
+
+.description-list__item{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.description__button{
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: #eaa637;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    margin: 2rem 0 ;
+}
