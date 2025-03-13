@@ -19,10 +19,13 @@
     padding: 3rem;
     gap: 1rem;
 }
-
-.fa-certificate, .fa-people-group, .fa-bread-slice, .fa-cart-plus{
-    color: #eaa637;
+.facts__badges > i{
     font-size: 3rem;
+}
+
+.description-list__item  > i {
+    color: #eaa637;
+    font-size: 2rem;
 }
 
 .badges__description{
